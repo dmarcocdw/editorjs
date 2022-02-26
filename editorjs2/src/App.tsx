@@ -1,12 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
 import EditorJS from "@editorjs/editorjs";
 // @ts-ignore
 import Header from "@editorjs/header";
 import "./App.css";
 
 function App() {
-  const editor = new EditorJS({
+ new EditorJS({
     holder: "editorjs",
     tools: { header: { class: Header } },
   });
